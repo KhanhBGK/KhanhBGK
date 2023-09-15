@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+.hinh{
+	background-image: url("bbt 1.jpg");
+	background-size: cover;
+	height: 600px;
+	
+}
+.Title{
+	font-family:'Black Ops One', cursive;
+	font-size: 20px;
+	padding: 5px 10px;
+}
+#OV{
+	padding: 100px 0 40px;
+	background-color: #DDDDDD;
+}
+#OV p{
+	text-align: justify;
+}
+#version{
+	padding: 40px 0;
+}
+#New{
+	padding: 40px 0;
+	background-color: #DDDDDD;
+}
+#anh{
+	padding: 60px 0;
+}
+#foot{
+	background-color:#4E4E4E;
+	padding: 30px 0;
+}
+#navbar-example2 img{
+	width: 75px;
+}
+
+
+@media screen and (max-width:991.98px){
+	#version{
+		padding: 20px;
+	}
+}
